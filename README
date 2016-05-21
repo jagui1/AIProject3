@@ -1,0 +1,32 @@
+Jeremy Aguillon
+CMSC 471
+Project 3
+
+                             Contents
+
+pickling.py - program that pickles the given data into data.pickle
+            - not generalizible only created based on specific data set
+
+data.pickle - pickled data that contains all of the featurized images and their labels
+
+proj3.ipynb - program that creates the confusion matrix and creates a graph of it for visualization
+
+classify.py - this is the requested program that takes in a command line argument for the path to the image to test and predicts the type of image
+            - uses data.pickle instead of folders of files so it is more generalized
+
+project3Report.tex - tex source code for the report
+
+project3Report.pdf - readable version of the report
+
+
+                            To Run:
+
+python/python3 classify.py <path to img>
+
+
+                            Examples:
+
+python3 classify.py "../Training/00/01.jpg"
+
+python classify.py "test.jpg"
+
